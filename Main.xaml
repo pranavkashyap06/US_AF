@@ -88,7 +88,7 @@
       <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="272,153" sap2010:WorkflowViewState.IdRef="Sequence_55">
+  <Sequence sap:VirtualizedContainerService.HintSize="272,254" sap2010:WorkflowViewState.IdRef="Sequence_55">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="ElementExists" />
       <Variable x:TypeArguments="ui:UiElement" Name="FindElementActivity" />
@@ -99,5 +99,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_20" Text="Hi this is my First Code" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_21" Text="Second Write Line" />
   </Sequence>
 </Activity>
